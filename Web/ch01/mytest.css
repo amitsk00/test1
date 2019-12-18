@@ -1,0 +1,32 @@
+:required{
+    font-weight: bold;
+}
+
+form {
+    padding: 25px 50px 75px 1px;
+    margin: 25px 50px 75px 1px;
+    border-style: groove;
+    border-color: blue;
+    border-width: 2px;
+  }
+
+div {
+    padding: 2px 1px 2px 1px;
+    
+  }
+
+.form_error {
+    border-width: 0px;
+    border-color: red;
+    text-decoration-color: red;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.z_label {
+  display: inline-block ;
+  width: 100px ;
+  border: 0in;
+  text-align: right; 
+
+}

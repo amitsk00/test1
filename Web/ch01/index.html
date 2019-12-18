@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first application</title>
+    <script src="mytest1.js" defer></script>
+    <link rel="stylesheet" href="mytest.css">
+
+</head>
+
+<body>
+
+    <p>Hello from HTML</p>
+
+    <form name="form1">
+        <div>
+            <label class="z_label"> Name </label>
+            <input type=" text" name="z_name" id="z_name">
+            <label class="form_error" id="z_name_error"></label>
+        </div>
+        <div>
+            <label class="z_label"> Price </label>
+            <input type="text" name="z_price" id="z_price">
+            <label class="form_error" id="z_price_error"></label>
+        </div>
+        <div>
+            <label class="z_label"> Description </label>
+            <input type="text" name="z_descr" id="z_descr">
+            <label class="form_error" id="z_descr_error"></label>
+        </div>
+        <div>
+            <input type="button" id="z_submit" name="z_submit" value="Send to DB" onclick="return validateData()">
+        </div>
+    </form>
+    <div id="z_results">
+        <p2 id="z_final"> ============= </p2>
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+
+
+</html>
